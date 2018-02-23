@@ -8,30 +8,23 @@ header {
 h1 {
     font-size: 100px;
 }
-.sidenav {
+.side {
     height: 100%;
-    width: 300px;
-    z-index: 1;
     background-color: coral;
-    overflow-x: hidden;
-    border: 1px solid white;
     padding-bottom: 15%;
     text-transform: capitalize;
 }
 
-.sidenav a {
+.side a {
     font-size: 20px;
     color: white;
     text-transform: capitalize;
 }
-.sidenav a:hover {
+.side a:hover {
     color: blue;
 }
-@media screen and (max-height: 200px) {
-  .sidenav {padding-top: 15px;}
-}
 .content {
-    margin-left: 300px;
+  text-align: left;
 }
 h5 {
   color: aqua;
