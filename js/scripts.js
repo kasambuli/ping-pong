@@ -1,13 +1,4 @@
 $(document).ready(function() {
-  $("form#pingpong").submit(function(event) {
-    var answer= parseInt("number").val() {
-      event.preventDefault
-    }
-  });
-});
-
-
-$(document).ready(function() {
     $("form#pingpong").submit(function(event) {
         event.preventDefault();
       var display = parseInt($("input#number").val());
