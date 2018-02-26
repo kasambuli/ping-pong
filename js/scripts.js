@@ -1,8 +1,8 @@
-var i, value
+var i, value;
 $(document).ready(function() {
-  $("#pingPong form").submit(function(event) {
+  $("#pingPong").submit(function(event) {
     event.preventDefault();
-    value = parseInt($("input#number").val());
+    value = parseInt($("#number").val());
       var result = answer(value);
       $("#push").text(result);
     });
