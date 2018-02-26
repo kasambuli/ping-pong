@@ -1,4 +1,4 @@
-#Ping Pong
+# Ping Pong
 #### This is a game where the user inputs a number and the results are either the index, ping, pong or pingpong.
 #### By **Cynthia Kasambuli**
 ## Description
